@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AliMun" name="com.selenium.datadriven.test.LoginTest" tests="3" failures="0" timestamp="6 Mar 2016 06:51:25 GMT" time="26.405" errors="0">
+  <testcase name="loginTest" time="23.711" classname="com.selenium.datadriven.test.LoginTest"/>
+  <testcase name="loginTest" time="0.001" classname="com.selenium.datadriven.test.LoginTest">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTest" time="0.001" classname="com.selenium.datadriven.test.LoginTest">
+    <skipped/>
+  </testcase>
+</testsuite>

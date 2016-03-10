@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="login suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="Login Test">
+    <classes>
+        <class name="com.selenium.datadriven.test.LoginTest" ></class>  
+    </classes>
+</test>
+
+
+
+
+
+</suite>
+

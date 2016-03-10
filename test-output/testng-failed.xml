@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortFolio suite]">
+  <listeners>
+    <listener class-name="listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Create PortFolio Test(failed)">
+    <classes>
+      <class name="com.selenium.datadriven.test.CreatePortFolioTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="createPortfolio" invocation-numbers="0 1 2"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.selenium.datadriven.test.CreatePortFolioTest -->
+    </classes>
+  </test> <!-- Create PortFolio Test(failed) -->
+</suite> <!-- Failed suite [PortFolio suite] -->

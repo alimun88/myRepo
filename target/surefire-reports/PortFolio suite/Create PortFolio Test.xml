@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AliMun" name="com.selenium.datadriven.test.CreatePortFolioTest" tests="3" failures="1" timestamp="10 Mar 2016 05:17:31 GMT" time="36.471" errors="0">
+  <testcase name="createPortfolio" time="0.015" classname="com.selenium.datadriven.test.CreatePortFolioTest">
+    <skipped/>
+  </testcase>
+  <testcase name="createPortfolio" time="34.511" classname="com.selenium.datadriven.test.CreatePortFolioTest">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.selenium.datadriven.test.CreatePortFolioTest.createPortfolio(CreatePortFolioTest.java:55)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="createPortfolio" time="0.0" classname="com.selenium.datadriven.test.CreatePortFolioTest">
+    <skipped/>
+  </testcase>
+</testsuite>

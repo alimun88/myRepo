@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PortFolio_suite">
+              <span class="suite-name border-failed">PortFolio suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PortFolio_suite">
+                    <span>C:\Users\Liaquat\Selenium\workspace\POM_PageFactory\src\test\resources\CreatePortFolioTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PortFolio_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PortFolio_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PortFolio_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PortFolio_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PortFolio_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PortFolio_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PortFolio_suite" class="hide-methods failed suite-PortFolio_suite"> (hide)</a> <!-- hide-methods failed suite-PortFolio_suite -->
+                      <a href="#" panel-name="suite-PortFolio_suite" class="show-methods failed suite-PortFolio_suite"> (show)</a> <!-- show-methods failed suite-PortFolio_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-PortFolio_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_suite" title="com.selenium.datadriven.test.CreatePortFolioTest" hash-for-method="createPortfolio({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y})">createPortfolio({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PortFolio_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-PortFolio_suite" class="hide-methods skipped suite-PortFolio_suite"> (hide)</a> <!-- hide-methods skipped suite-PortFolio_suite -->
+                      <a href="#" panel-name="suite-PortFolio_suite" class="show-methods skipped suite-PortFolio_suite"> (show)</a> <!-- show-methods skipped suite-PortFolio_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-PortFolio_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_suite" title="com.selenium.datadriven.test.CreatePortFolioTest" hash-for-method="createPortfolio({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N})">createPortfolio({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PortFolio_suite" title="com.selenium.datadriven.test.CreatePortFolioTest" hash-for-method="createPortfolio({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N})">createPortfolio({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-PortFolio_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PortFolio_suite" class="panel PortFolio_suite">
+          <div class="suite-PortFolio_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.datadriven.test.CreatePortFolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortfolio({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y})">
+                  </a> <!-- createPortfolio({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y}) -->
+                  <span class="method-name">createPortfolio</span>
+                  <span class="parameters">({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y})</span>
+                  <div class="stack-trace">java.lang.Throwable: Multiple failures (2):nnFailure 1 of 2:njava.lang.AssertionError: Title doesn&apos;t match expected [true] but found [false]
+	at com.selenium.datadriven.page.LoginPage.doLogin(LoginPage.java:36)
+	at com.selenium.datadriven.util.Utility.logIn_Application(Utility.java:87)
+	at com.selenium.datadriven.test.CreatePortFolioTest.createPortfolio(CreatePortFolioTest.java:35)
+nnFailure 2 of 2:njava.lang.NullPointerException
+	at com.selenium.datadriven.test.CreatePortFolioTest.createPortfolio(CreatePortFolioTest.java:55)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PortFolio_suite-class-failed -->
+          <div class="suite-PortFolio_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.selenium.datadriven.test.CreatePortFolioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortfolio({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N})">
+                  </a> <!-- createPortfolio({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N}) -->
+                  <span class="method-name">createPortfolio</span>
+                  <span class="parameters">({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test
+	at com.selenium.datadriven.test.CreatePortFolioTest.createPortfolio(CreatePortFolioTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPortfolio({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N})">
+                  </a> <!-- createPortfolio({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N}) -->
+                  <span class="method-name">createPortfolio</span>
+                  <span class="parameters">({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test
+	at com.selenium.datadriven.test.CreatePortFolioTest.createPortfolio(CreatePortFolioTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PortFolio_suite-class-skipped -->
+        </div> <!-- panel PortFolio_suite -->
+        <div panel-name="test-xml-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Liaquat\Selenium\workspace\POM_PageFactory\src\test\resources\CreatePortFolioTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;PortFolio suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listener.TestsListenerAdapter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Create PortFolio Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.datadriven.test.CreatePortFolioTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create PortFolio Test --&gt;
+&lt;/suite&gt; &lt;!-- PortFolio suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PortFolio suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create PortFolio Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PortFolio suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PortFolio suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PortFolio_suite');
+function tableData_PortFolio_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPortfolio')
+data.setCell(0, 2, 'com.selenium.datadriven.test.CreatePortFolioTest')
+data.setCell(0, 3, 38016);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createPortfolio')
+data.setCell(1, 2, 'com.selenium.datadriven.test.CreatePortFolioTest')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createPortfolio')
+data.setCell(2, 2, 'com.selenium.datadriven.test.CreatePortFolioTest')
+data.setCell(2, 3, 0);
+window.suiteTableData['PortFolio_suite']= { tableData: data, tableDiv: 'times-div-PortFolio_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-PortFolio_suite">
+              </div> <!-- times-div-PortFolio_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PortFolio suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PortFolio_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.datadriven.test.CreatePortFolioTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">createPortfolio({PortFolioName=AliPortfolio499, BrowserType=Chrome, Runmode=N})</span>
+                <span class="method-start">1708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createPortfolio({PortFolioName=MyPortfolio188, BrowserType=Chrome, Runmode=Y})</span>
+                <span class="method-start">1719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPortfolio({PortFolioName=MyPortfolio438, BrowserType=Chrome, Runmode=N})</span>
+                <span class="method-start">39737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">39737 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

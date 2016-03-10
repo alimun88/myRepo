@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PortFolio suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="Create PortFolio Test">
+    <classes>
+        <class name="com.selenium.datadriven.test.CreatePortFolioTest" ></class>  
+    </classes>
+</test>
+
+</suite>
+

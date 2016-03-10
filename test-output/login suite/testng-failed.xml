@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login suite]">
+  <listeners>
+    <listener class-name="listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Login Test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.selenium.datadriven.test.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 2"/>
+          <include name="quitDriver"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

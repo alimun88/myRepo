@@ -1,0 +1,9 @@
+<suite name="My Project" >
+
+  <suite-files>
+   <suite-file path="./LoginTest.xml" />
+   <suite-file path="./InvestmentTest.xml" />
+   <suite-file path="./CreatePortFolioTest.xml" />
+   
+  </suite-files>
+</suite>

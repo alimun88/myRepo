@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Investment suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+
+<test name="Investment Test">
+    <classes>
+        <class name="com.selenium.datadriven.test.InvestmentTest" ></class>  
+    </classes>
+</test>
+
+</suite>
+
